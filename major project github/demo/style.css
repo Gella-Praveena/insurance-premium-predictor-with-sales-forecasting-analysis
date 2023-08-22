@@ -1,0 +1,178 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.nav-bar
+{
+    background-color:#53a8b6;
+    height:150px;
+    display:flex;
+   /* justify-content: space-evenly;*/
+    align-items:center;
+}
+.content h1{
+    justify-content: center;
+    font-size: 60px;
+    color:white;
+    margin-left: 200px;
+    padding-top: 20px;
+}
+/**nav-box1**/
+.nav-box1{
+    background-image: url("easy med.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:150px;
+    width:130px;
+    margin-left: 25px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+    transition: 0.3sec;
+}
+
+.panel{
+    background-color: #232f3e;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+/**panel-box1**/
+
+.panel-box1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight:700;
+    color:#ffffff; 
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.panel-box1 p{
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight:700;
+    color:#ffffff;
+      
+}
+
+/**panel-box2**/
+
+.panel-box2{
+    margin:auto ;
+    text-align: center;
+    display: flex;
+}
+.panel-box2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight:500;
+    color:#ffffff; 
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 4px;
+    padding-bottom: 4px; 
+}
+
+/**-----------------------------pannel ends here-------------------**/
+
+/***hero section**/
+.hero{
+    background-image: url("f22.jpg");
+    height:700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items:flex-end;
+    display: flex;
+
+
+}
+.hero-box{
+    height: 40px;
+    width:80%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+.hero-box a{
+    color:#007185;
+
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text h2{
+    font-size: 2rem;
+    margin-left: 940px;
+}
+.box{
+    /**border-style: solid;**/
+    border-radius: 25px;
+    border-color: white;
+    width:450px;
+    height:500px;
+    margin-bottom: 50px;
+    margin-left:900px ;
+    background-color:#cbd9ec;
+}
+.box p{
+    font-size: 1.5rem;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.information{
+    justify-content: center;
+    margin-left:70px;
+
+}
+
+.instruction-section{
+    padding:20px;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #232f3e;
+
+
+
+}
+.leftsection img{
+    height:400px;
+    margin:10;
+    width:400px;
+
+}
+.rightsection{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    height:200px;
+    color: white;
+}
+.rightsection ul{
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.instruction-section h3{
+    padding-bottom: 10px;
+}
+
+
+
+
